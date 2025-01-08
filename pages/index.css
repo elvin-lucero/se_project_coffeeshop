@@ -135,6 +135,13 @@
   min-width: 480px;
   min-height: 273px;
 }
+.recipes__iframe {
+  width: 560px;
+  height: 315px;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
 
 .recipes__video-caption {
   font-family: "Inter", "Arial", sans-serif;
