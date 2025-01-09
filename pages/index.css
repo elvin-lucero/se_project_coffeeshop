@@ -1,3 +1,11 @@
+@keyframes smooth {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .page {
   min-width: 1100px;
   max-width: 1600px;
@@ -151,4 +159,102 @@
   display: flex;
   justify-content: space-between;
   margin: 24px 0 0;
+}
+
+.reservation {
+  background-color: #d9e7ff;
+  background-image: url(../images/background_reservation.svg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reservation__title {
+  font-family: "Inter", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  margin: 100px 0px 80px;
+  padding: 0;
+}
+
+.form {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+.reservation__form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 120px;
+  padding: 0;
+  align-items: center;
+}
+
+.reservation__fieldset {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.reservation__label {
+  font-family: "Inter", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.reservation__input {
+  display: block;
+  font-family: "Inter", "Arial", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  border: 1px solid #838383;
+  padding: 15px 20px;
+  margin: 8px 0 32px;
+  width: 100%;
+  box-sizing: border-box;
+  max-width: 385px;
+}
+
+.reservation__button {
+  font-family: "Inter", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  background-color: #1878dc;
+  color: #ffffff;
+  border: none;
+  padding: 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 100%;
+  margin-bottom: 32px;
+}
+.reservation__button:hover {
+  background-color: #3f96f3;
+}
+
+.reservation__checkbox {
+  background-color: #1878dc;
+  background-image: url(../images/checkbox.svg);
+  border-radius: 2px;
+  margin: 0;
+  padding: 0;
+  width: 20px;
+  height: 20px;
+}
+
+.reservation__label_type_checkbox {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  gap: 12px;
 }
