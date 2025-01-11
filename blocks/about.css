@@ -15,10 +15,10 @@
   background-color: #0a2850;
   color: #ffffff;
   margin: 0;
-  padding: 0;
+  padding: 100px 80px;
   overflow: hidden;
   position: relative;
-  z-index: 0;
+  z-index: 1;
 }
 
 .about__title {
@@ -26,14 +26,14 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  margin: 100px auto auto 80px;
   max-width: 251px;
+  margin: 0;
   padding: 0;
   text-align: center;
 }
 
 .about__content {
-  margin: 119px 80px 173px auto;
+  margin: 19px 0px 73px auto;
   padding: 0;
   max-width: 660px;
   display: flex;

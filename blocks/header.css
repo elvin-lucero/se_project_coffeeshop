@@ -8,6 +8,7 @@
   background-size: cover;
   position: relative;
   margin: 0;
+  z-index: 0;
 }
 
 .header__image {
@@ -16,6 +17,7 @@
   right: 5px;
   width: 646px;
   height: 568px;
+  z-index: -1;
 }
 
 .header__title {
@@ -32,8 +34,6 @@
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
   font-weight: normal;
-  font-size: 60px;
-  line-height: 72px;
   color: #3f96f3;
   display: block;
 }
